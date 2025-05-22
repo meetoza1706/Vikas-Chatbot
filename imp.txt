@@ -1,0 +1,4 @@
+This is an pre-trained. fine tuned model that can do following things:
+1) works for you as Chat asistant
+2) stores querys for you
+3) talks dynamically
