@@ -3,7 +3,7 @@ import re
 import csv
 import os
 
-genai.configure(api_key="Your_API_key")  # replace with your key
+genai.configure(api_key="Your_API_Key")  # replace with your key
 
 model = genai.GenerativeModel("models/gemini-2.0-flash")
 chat = model.start_chat(history=[{
@@ -24,7 +24,7 @@ questions = ["problem", "device_type", "visit_type", "full_name"]
 conversation_data = {key: None for key in questions}
 current_step = -1  # -1 means skip greeting
 
-print("Vikas: Hello! How can I help you today?")
+print("Say Hello to speak to Vikas!")
 
 while current_step < len(questions):
     user_input = input("Client: ").strip()
